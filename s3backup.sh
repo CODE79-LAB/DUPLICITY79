@@ -1,10 +1,12 @@
 #!/bin/bash
 
+############################################################
+# CODE79.com
+# duplicity79
+############################################################
+
 # Export some ENV variables so you don't have to type anything
 source /root/.duplicity79.cfg.sh
-
-
-
 
 # Your GPG key
 GPG_KEY=
