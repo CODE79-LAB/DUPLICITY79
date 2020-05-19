@@ -10,4 +10,7 @@ export AWS_SECRET_ACCESS_KEY="ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
 export PASSPHRASE=""
 
 # Your GPG key
-GPG_KEY=""
+export GPG_KEY=""
+
+# The S3 destination followed by bucket name
+export DEST="s3://infra.code79.backup/$hostname/"
