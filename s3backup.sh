@@ -3,6 +3,7 @@
 ############################################################
 # CODE79.com
 # duplicity79
+# Dependencies: duplicity and boto module (pip3 install boto)
 ############################################################
 
 # Export some ENV variables so you don't have to type anything
