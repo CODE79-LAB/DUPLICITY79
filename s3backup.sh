@@ -9,9 +9,6 @@
 # Export some ENV variables so you don't have to type anything
 source /root/.duplicity79.cfg.sh
 
-# Your GPG key
-GPG_KEY=
-
 # The S3 destination followed by bucket name
 DEST="s3://s3.amazonaws.com//"
 
