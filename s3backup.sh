@@ -71,6 +71,8 @@ if [ $is_running -eq 0 ]; then
         --include=/var/rsnap-mysql \
         --include=/var/www \
         --include=/etc \
+        --include=/root \
+        --include=/home \
         --exclude=/** \
         ${SOURCE} ${DEST} >> ${DAILYLOGFILE} 2>&1
 
