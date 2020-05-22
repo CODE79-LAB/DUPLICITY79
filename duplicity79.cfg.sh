@@ -13,4 +13,4 @@ export PASSPHRASE=""
 export GPG_KEY=""
 
 # The S3 destination followed by bucket name
-export DEST="s3://infra.code79.backup/$hostname/"
+export DEST="s3://infra.code79.backup/$HOSTNAME/"
