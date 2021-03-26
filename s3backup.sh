@@ -15,7 +15,7 @@ DAILYLOGFILE="/var/log/duplicity/backup.daily.log"
 FULLBACKLOGFILE="/var/log/duplicity/backup.full.log"
 HOST=`hostname -f`
 DATE=`date +%Y-%m-%d`
-MAILADDR="security@code79.com"
+MAILADDR="gilles@code79.com"
 TODAY=$(date +%d%m%Y)
 
 is_running=$(ps -ef | grep duplicity  | grep python | wc -l)
